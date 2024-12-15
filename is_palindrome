@@ -1,0 +1,9 @@
+def is_palindrome(arr):
+  n=len(arr)//2
+  if arr[:n+1]==arr[:n-1:-1]:
+    return True
+  else:
+    return False
+
+text="aaabaaa"
+is_palindrome(text)
