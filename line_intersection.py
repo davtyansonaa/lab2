@@ -4,10 +4,6 @@ def orientation(p, q, r):
         return 0  
     return 1 if val > 0 else 2  
 
-def slope(p, q):
-    return (q[1] - p[1]) / (q[0] - p[0])
-
-
 def do_intersect(p1, p2, q1, q2):
     o1 = orientation(p1, p2, q1)
     o2 = orientation(p1, p2, q2)
